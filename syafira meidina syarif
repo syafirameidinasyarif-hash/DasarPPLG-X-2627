@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOYTipOmOnBTnoWVjOEBXUv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/syafirameidinasyarif-hash/DasarPPLG-X-2627/blob/main/syafira%20meidina%20syarif\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u3mxXYUK_Fam",
+        "outputId": "f034b707-f19c-41db-f445-44890fd075b5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Setiap siswa mendapat : 6 permen\n",
+            "Sisa permen di toples : 1 permen\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Kasus:ibu guru punya 25 buah permen, ingin dibagikan rata ke 4 siswa\n",
+        "jumlah_permen=25\n",
+        "jumlah_siswa=4\n",
+        "\n",
+        "permen_per_siswa=jumlah_permen//jumlah_siswa\n",
+        "sisa_permen = jumlah_permen % jumlah_siswa\n",
+        "\n",
+        "print(f\"Setiap siswa mendapat : {permen_per_siswa} permen\")\n",
+        "print(f\"Sisa permen di toples : {sisa_permen} permen\")"
+      ]
+    }
+  ]
+}
